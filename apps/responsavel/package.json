@@ -1,0 +1,28 @@
+{
+  "name": "@vans-app/responsavel",
+  "private": true,
+  "version": "0.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "dev": "expo start",
+    "build": "expo export",
+    "lint": "eslint \"src/**/*.{ts,tsx}\" App.tsx",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "clean": "rm -rf dist .expo"
+  },
+  "dependencies": {
+    "expo": "~51.0.28",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "@vans-app/domain-types": "workspace:*",
+    "@vans-app/api-client": "workspace:*",
+    "@vans-app/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.2.79",
+    "typescript": "^5.5.4"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@vans-app/db",
+  "private": true,
+  "version": "0.0.0",
+  "main": "schema.ts",
+  "types": "schema.ts",
+  "scripts": {
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate",
+    "studio": "drizzle-kit studio",
+    "lint": "eslint \"*.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.33.0",
+    "postgres": "^3.4.4"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.24.2",
+    "typescript": "^5.5.4"
+  }
+}

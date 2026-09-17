@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "responsavel",
+    "slug": "vans-app-responsavel",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": false },
+    "android": {}
+  }
+}
