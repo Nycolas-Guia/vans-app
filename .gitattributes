@@ -1,0 +1,4 @@
+# Força LF em todos os arquivos de texto, independente do core.autocrlf do
+# Git de quem clona. Evita divergência de fim de linha entre Windows e o
+# runner Linux do CI, que é o que o Prettier costuma pegar no format:check.
+* text=auto eol=lf
