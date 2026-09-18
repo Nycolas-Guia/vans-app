@@ -2,7 +2,7 @@
   "name": "@vans-app/motorista",
   "private": true,
   "version": "0.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.ts",
   "scripts": {
     "dev": "expo start",
     "build": "expo export",
