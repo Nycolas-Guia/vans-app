@@ -1,10 +1,7 @@
 # App de Gestão de Vans Escolares (Litoral Sul SP)
 
 Monorepo Turborepo. Contexto completo de produto e arquitetura em
-[`docs/especificacao-tecnica.md`](./docs/especificacao-tecnica.md); regras
-não negociáveis de domínio e convenções de código em [`CLAUDE.md`](./CLAUDE.md)
-(espelhado em `GEMINI.md` para sessões com outro assistente — mesmo conteúdo,
-manter os dois em sincronia).
+[`docs/especificacao-tecnica.md`](./docs/especificacao-tecnica.md);
 
 ## Status: Fase 1 — Setup (em andamento)
 
